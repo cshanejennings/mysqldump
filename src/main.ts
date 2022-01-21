@@ -27,6 +27,8 @@ const defaultOptions: Options = {
         ssl: null,
     },
     dump: {
+        headerVariables: HEADER_VARIABLES,
+        footerVariables: FOOTER_VARIABLES,
         tables: [],
         excludeTables: false,
         schema: {
